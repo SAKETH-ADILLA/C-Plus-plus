@@ -1,0 +1,16 @@
+#include <iostream.h>  
+#include <conio.h>  
+using namespace std;  
+class hello {     // The class  
+  public:           // Access specifier  
+   hello () {     // Constructor  
+      cout << "Hello World! Program in C++ by using Constructor";  
+    }  
+   void display() {  
+     cout <<"Hello World!" <<endl;  
+   }  
+};  
+int main() {  
+  hello myObj;   /  
+  return 0;  
+}  
